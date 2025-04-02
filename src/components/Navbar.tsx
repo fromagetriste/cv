@@ -6,7 +6,11 @@ const Navbar = () => {
   return (
     <nav className="nav-container" id="NavIdForScroll">
       <div className="left-group">
-        <img className="logo-dev" src="/icons/web-icon.svg" alt="dev-icon" />
+        <img
+          className="logo-dev"
+          src="/public/icons/web-icon.svg" // added /public
+          alt="dev-icon"
+        />
         <ul className="navigation-sections">
           <Link to="NavIdForScroll" smooth={true} duration={500} id="nav-home">
             Home
