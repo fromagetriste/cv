@@ -8,7 +8,7 @@ const GitHubButton: React.FC = () => {
     >
       <img
         className="logo-github"
-        src="/icons/github-icon.svg"
+        src={`${import.meta.env.BASE_URL}/icons/github-icon.svg`}
         alt="github icon"
       />
     </a>
