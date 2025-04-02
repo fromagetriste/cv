@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="left-group">
         <img
           className="logo-dev"
-          src={`${process.env.PUBLIC_URL}/public/icons/web-icon.svg`} // added /public
+          src={`${process.env.PUBLIC_URL}/icons/web-icon.svg`} // added /public
           alt="dev-icon"
         />
         <ul className="navigation-sections">
