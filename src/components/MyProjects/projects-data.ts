@@ -23,7 +23,7 @@ const projectsData: ProjectsDataType[] = [
     tech: ["TypeScript", "Local Storage", "React Router", "Axios"],
     website: "https://damien-movies.netlify.app/",
     github: "https://github.com/fromagetriste/movies-API",
-    screenshot: "/photos/myprojects/movies-app.png",
+    screenshot: `${import.meta.env.BASE_URL}/photos/myprojects/movies-app.png`,
   },
   {
     id: 2,
@@ -36,7 +36,9 @@ const projectsData: ProjectsDataType[] = [
     tech: ["TypeScript", "Framer-Motion", "useEffect", "SASS"],
     website: "",
     github: "https://github.com/fromagetriste/portfolio-TypeScript",
-    screenshot: "/photos/myprojects/portfolio-app.png",
+    screenshot: `${
+      import.meta.env.BASE_URL
+    }/photos/myprojects/portfolio-app.png`,
   },
   {
     id: 3,
@@ -49,7 +51,9 @@ const projectsData: ProjectsDataType[] = [
     tech: ["React Router", "useEffect", "Axios", "SASS"],
     website: "https://countries-damien.netlify.app/",
     github: "https://github.com/fromagetriste/countries-API",
-    screenshot: "/photos/myprojects/countries-app.png",
+    screenshot: `${
+      import.meta.env.BASE_URL
+    }/photos/myprojects/countries-app.png`,
   },
   {
     id: 4,
@@ -62,7 +66,7 @@ const projectsData: ProjectsDataType[] = [
     tech: ["TypeScript", "Tailwind", "Context API", "React"],
     website: "https://e-com-typescript.netlify.app/",
     github: "https://github.com/fromagetriste/E-Com-React-Typescript",
-    screenshot: "/photos/myprojects/ecom-app.png",
+    screenshot: `${import.meta.env.BASE_URL}/photos/myprojects/ecom-app.png`,
   },
 ];
 

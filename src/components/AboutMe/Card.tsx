@@ -18,17 +18,17 @@ export const cardData: CardData = {
   firstCard: {
     firstTitle: "French citizen",
     secondTitle: `${myAge} years old`,
-    image: "/icons/about/france.svg",
+    image: `${import.meta.env.BASE_URL}/icons/about/france.svg`,
   },
   secondCard: {
     firstTitle: "10 years in",
     secondTitle: "International Trade",
-    image: "/icons/about/boat.svg",
+    image: `${import.meta.env.BASE_URL}/icons/about/boat.svg`,
   },
   thirdCard: {
     firstTitle: "Loves Tech,",
     secondTitle: "Sports and Nature",
-    image: "/icons/about/shoe.svg",
+    image: `${import.meta.env.BASE_URL}/icons/about/shoe.svg`,
   },
 };
 
