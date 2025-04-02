@@ -21,7 +21,7 @@ const Title = () => {
         transition={{ duration: 0.8, delay: 0.2 }} // Slight delay for a staggered effect
         viewport={{ once: true }}
       >
-        I am a disciplined and self-taught coder
+        I am a disciplined and self-taught coder (junior)
       </motion.h3>
     </div>
   );
