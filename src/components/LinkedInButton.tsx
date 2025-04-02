@@ -7,7 +7,7 @@ const LinkedInButton = () => {
     >
       <img
         className="logo-linkedin"
-        src="/icons/linkedin-icon.svg"
+        src={`${import.meta.env.BASE_URL}/public/icons/linkedin-icon.svg`}
         alt="linkedin icon"
       />
     </a>

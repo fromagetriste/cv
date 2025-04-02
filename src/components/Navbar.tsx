@@ -2,7 +2,7 @@ import GitHubButton from "./GitHubButton";
 import LinkedInButton from "./LinkedInButton";
 import { Link } from "react-scroll";
 
-console.log("process.env.PUBLIC_URL" + process.env.PUBLIC_URL);
+console.log("import.meta.env.BASE_URL" + import.meta.env.BASE_URL);
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="left-group">
         <img
           className="logo-dev"
-          src={`${process.env.PUBLIC_URL}/icons/web-icon.svg`} // added /public
+          src={`${import.meta.env.BASE_URL}/icons/web-icon.svg`} // added /public
           alt="dev-icon"
         />
         <ul className="navigation-sections">
