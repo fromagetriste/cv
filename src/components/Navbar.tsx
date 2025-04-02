@@ -2,6 +2,8 @@ import GitHubButton from "./GitHubButton";
 import LinkedInButton from "./LinkedInButton";
 import { Link } from "react-scroll";
 
+console.log("process.env.PUBLIC_URL" + process.env.PUBLIC_URL);
+
 const Navbar = () => {
   return (
     <nav className="nav-container" id="NavIdForScroll">
