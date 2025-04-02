@@ -14,8 +14,8 @@ interface ProjectsDataType {
 const projectsData: ProjectsDataType[] = [
   {
     id: 1,
-    src: "/icons/projects/movies.svg",
-    srcGreen: "/icons/projects/movies-green.svg",
+    src: `${import.meta.env.BASE_URL}/icons/projects/movies.svg`,
+    srcGreen: `${import.meta.env.BASE_URL}/icons/projects/movies-green.svg`,
     framework: "Movies",
     title: "Movies App from API",
     description:
@@ -27,8 +27,8 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: 2,
-    src: "/icons/projects/cv.svg",
-    srcGreen: "/icons/projects/cv-green.svg",
+    src: `${import.meta.env.BASE_URL}/icons/projects/cv.svg`,
+    srcGreen: `${import.meta.env.BASE_URL}/icons/projects/cv-green.svg`,
     framework: "Portfolio",
     title: "My Portfolio in Typescript",
     description:
@@ -40,8 +40,8 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: 3,
-    src: "/icons/projects/globe.svg",
-    srcGreen: "/icons/projects/globe-green.svg",
+    src: `${import.meta.env.BASE_URL}/icons/projects/globe.svg`,
+    srcGreen: `${import.meta.env.BASE_URL}/icons/projects/globe-green.svg`,
     framework: "Countries",
     title: "Countries API",
     description:
@@ -53,8 +53,8 @@ const projectsData: ProjectsDataType[] = [
   },
   {
     id: 4,
-    src: "/icons/projects/ecommerce.svg",
-    srcGreen: "/icons/projects/ecommerce-green.svg",
+    src: `${import.meta.env.BASE_URL}/icons/projects/ecommerce.svg`,
+    srcGreen: `${import.meta.env.BASE_URL}/icons/projects/ecommerce-green.svg`,
     framework: "Store",
     title: "E-Commerce in TypeScript",
     description:

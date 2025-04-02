@@ -7,7 +7,7 @@ const Footer = () => {
         <Link to="NavIdForScroll" smooth={true} duration={500}>
           <img
             className="footer-arrow"
-            src="/icons/footer/top-arrow.svg"
+            src={`${import.meta.env.BASE_URL}/icons/footer/top-arrow.svg`}
             alt="arrow to top page"
           />
         </Link>

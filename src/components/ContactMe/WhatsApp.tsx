@@ -4,7 +4,7 @@ const WhatsApp = () => {
       <div className="photo-container">
         <img
           className="contact-photo"
-          src="/icons/contact/whatsapp.svg"
+          src={`${import.meta.env.BASE_URL}/icons/contact/whatsapp.svg`}
           alt="profile picture"
         />
       </div>

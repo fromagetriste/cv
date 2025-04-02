@@ -48,19 +48,19 @@ const RadioDescription = () => {
         <div className="abt-flags">
           {flagz.map((flag) => (
             <label
-              key={flag.tongue}
-              htmlFor={flag.tongue}
-              className={langue === flag.tongue ? "isChecked" : "notChecked"}
+              key={flag?.tongue}
+              htmlFor={flag?.tongue}
+              className={langue === flag?.tongue ? "isChecked" : "notChecked"}
             >
               <input
-                id={flag.tongue}
-                value={flag.tongue}
+                id={flag?.tongue}
+                value={flag?.tongue}
                 type="radio"
-                checked={langue === flag.tongue}
+                checked={langue === flag?.tongue}
                 onChange={handleLangueChange}
                 style={{ display: "none" }}
               />
-              <img className="radio-drapeaux" src={flag.src} alt="flag" />
+              <img className="radio-drapeaux" src={flag?.src} alt="flag" />
             </label>
           ))}
         </div>

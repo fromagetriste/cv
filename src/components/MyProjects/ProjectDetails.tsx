@@ -64,7 +64,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ projectDetails }) => {
             className="anchor-link"
           >
             <img
-              src="/icons/projects/monitor.svg"
+              src={`${import.meta.env.BASE_URL}/icons/projects/monitor.svg`}
               alt="monitor logo"
               className="logo-visit"
             />
@@ -76,7 +76,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ projectDetails }) => {
             className="anchor-link"
           >
             <img
-              src="/icons/projects/github.svg"
+              src={`${import.meta.env.BASE_URL}/icons/projects/github.svg`}
               alt="github logo"
               className="logo-visit"
             />

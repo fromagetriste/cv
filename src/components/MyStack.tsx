@@ -33,7 +33,7 @@ const MyStack = () => {
               <div className="glass">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/python.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/python.svg`}
                   alt="python logo"
                 />
                 Python
@@ -41,7 +41,7 @@ const MyStack = () => {
               <div className="glass">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/django.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/django.svg`}
                   alt="django logo"
                 />
                 Django
@@ -49,7 +49,7 @@ const MyStack = () => {
               <div className="glass">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/panda.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/panda.svg`}
                   alt="panda logo"
                 />
                 Panda
@@ -59,7 +59,7 @@ const MyStack = () => {
               <div className="glass">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/tailwind.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/tailwind.svg`}
                   alt="sass logo"
                 />
                 Tailwind / SASS
@@ -67,7 +67,7 @@ const MyStack = () => {
               <div className="glass" id="typescript-shadow">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/typescript.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/typescript.svg`}
                   alt="typescript logo"
                 />
                 TypeScript
@@ -75,7 +75,7 @@ const MyStack = () => {
               <div className="glass">
                 <img
                   className="gauche-logo"
-                  src="/icons/stack/github.svg"
+                  src={`${import.meta.env.BASE_URL}/icons/stack/github.svg`}
                   alt="github logo"
                 />
                 GitHub
@@ -88,7 +88,7 @@ const MyStack = () => {
           <div className="glass-card-react">
             <div className="logo-react-container">
               <img
-                src="/icons/stack/react-logo-pink.svg"
+                src={`${import.meta.env.BASE_URL}/icons/stack/react-logo-pink.svg`}
                 alt="logo react"
                 className="card-logo-react"
               />

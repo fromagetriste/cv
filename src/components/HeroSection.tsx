@@ -75,11 +75,11 @@ const HeroSection = () => {
             <img
               id="profile-pic"
               className={displayClasses["rounded-pic"]}
-              src="/photos/hero/profile-picture-damien.png"
+              src={`${import.meta.env.BASE_URL}/photos/hero/profile-picture-damien.png`}
               alt="profile picture"
             />
             <img
-              src="/icons/french-flag.svg"
+              src={`${import.meta.env.BASE_URL}/icons/french-flag.svg`}
               alt="french flag"
               className="french-flag"
               id={displayClasses["FR"]}
@@ -115,17 +115,17 @@ const HeroSection = () => {
           <div className="terminal-header">
             <img
               className="bullet"
-              src="/icons/bullet-terminal.svg"
+              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
               alt="bullet icon"
             />
             <img
               className="bullet"
-              src="/icons/bullet-terminal.svg"
+              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
               alt="bullet icon"
             />
             <img
               className="bullet"
-              src="/icons/bullet-terminal.svg"
+              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
               alt="bullet icon"
             />
           </div>
