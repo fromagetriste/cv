@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto 2rem auto;
+  padding: 0.5rem;
+  width: 15rem;
+  height: 5rem;
+  text-align: center;
+  border-radius: 10px;
+  // background-color: rgb(255, 255, 255, 0.038);
+  // border: 1px solid rgba(255, 255, 255, 0.05);
+  // border-bottom: solid rgba(255, 255, 255, 0.248) 1px;
+  background: rgba(255, 255, 255, 0.03); /* Transparent white */
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2),
+    /* Inner shadow for depth */ 0 4px 10px rgba(0, 0, 0, 0.5); /* Outer shadow for elevation */
+  backdrop-filter: blur(10px); /* Blurred background for glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+.about-logo-container {
+  width: 3rem;
+  height: 3rem;
+}
+
+.about-logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

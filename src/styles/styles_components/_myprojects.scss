@@ -1,0 +1,269 @@
+.container-for-margins {
+  margin: 20rem 5rem 0 5rem; //   to be removed
+
+  .title {
+    text-align: center;
+    font-family: $font-2;
+    font-size: 3.5rem;
+    #projects-gradient {
+      @include green-gradient-properties;
+    }
+  }
+  .sub-title {
+    color: $grey;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  // _____________________________________________________
+  .my-projects-container {
+    display: flex;
+    justify-content: center;
+    // to be adjusted :
+    height: auto;
+    width: 100%;
+    gap: 1rem;
+    // _____________________________________________________
+
+    .left-container {
+      height: 35rem;
+      width: 50rem;
+      .buttons-container {
+        height: 7rem;
+        // border: solid 1px grey;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6rem;
+        padding-left: 5rem;
+      }
+      .radio-container {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+
+        .radio-logo {
+          width: 2.5rem;
+          height: 2.5rem;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .radio-text {
+          transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+          color: $white !important;
+        }
+        .radio-text-selected {
+          color: #28fa2f;
+          font-weight: 500;
+        }
+      }
+      input[type="radio"] {
+        opacity: 0;
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        cursor: pointer;
+      }
+      label {
+        position: relative;
+        cursor: pointer;
+      }
+      // _____________________________________________________
+
+      .description-container {
+        height: 21rem;
+        width: 40rem;
+        background-color: #111113;
+        border-bottom: solid rgba(0, 255, 8, 0.248) 1px;
+        border-left: solid rgba(0, 255, 8, 0.248) 1px;
+        border-radius: 20px;
+        .project-title {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 1.5rem 1rem 0 1rem;
+        }
+        .project-description {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 1rem 1rem 0 1rem;
+          font-size: 1rem;
+          margin-top: 1rem;
+          font-weight: 200;
+          color: $grey;
+        }
+        .used-tech {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          padding: 1rem;
+          margin-top: 2rem;
+          .tech-element {
+            border-radius: 15px;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            background-color: #27622a92;
+            border-left: solid rgba(151, 151, 151, 0.634) 1px;
+            border-bottom: solid rgba(151, 151, 151, 0.634) 1px;
+          }
+        }
+
+        .links {
+          margin-top: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          margin-right: 2rem;
+          font-style: italic;
+
+          :hover {
+            opacity: 0.5;
+            transition: 0.1s;
+          }
+
+          .anchor-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .logo-visit {
+            margin-left: 2rem;
+            margin-right: 0.5rem;
+            height: 2rem;
+            width: 2rem;
+          }
+        }
+      }
+    }
+  }
+  // _____________________________________________________
+
+  .right {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 20px;
+    .photo-project {
+      height: 29.9rem;
+      width: 29.9rem;
+      border-radius: 20px;
+      margin: auto;
+    }
+  }
+  // _____________________________________________________
+
+  #description-container-shadow {
+    position: relative;
+  }
+
+  #description-container-shadow::after {
+    content: "";
+    position: absolute;
+    // careful not to over-ride radio buttons
+    transform: translate(6.5rem, -16.3rem);
+    width: 35rem;
+    height: 10rem;
+    background: radial-gradient(
+      50% 20% at 100% 100%,
+      #28fa2f 100%,
+      #28fa2f 100%
+    );
+    filter: blur(110px);
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1250px) {
+  .my-projects-container {
+    flex-wrap: wrap;
+    .left-container {
+      height: 28rem !important;
+    }
+  }
+}
+
+@media (max-width: 682px) {
+  .container-for-margins {
+    margin: 15rem 0 0 0;
+    width: 100%;
+    .title {
+      font-size: 2.5rem;
+    }
+    .sub-title {
+      font-size: 1.25rem;
+      padding: 0 4rem;
+      margin-bottom: 3rem;
+    }
+    .my-projects-container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      .left-container {
+        width: 100%;
+        height: auto !important;
+        .buttons-container {
+          width: 100%;
+          gap: 2rem;
+          padding: 0;
+          justify-content: space-evenly;
+          .radio-container {
+            transform: scale(0.8);
+          }
+        }
+        .description-container {
+          width: 100%;
+          height: 100%;
+          .used-tech {
+            flex-wrap: wrap;
+          }
+          .links {
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            padding: 0;
+            margin-right: 0;
+            transform: scale(0.8);
+            width: 100%;
+            justify-content: space-evenly;
+          }
+        }
+      }
+      .right {
+        z-index: 3;
+        width: 70%;
+        margin: auto;
+        padding: 0 1rem;
+        height: 70%;
+        margin-top: 0.5rem;
+
+        .photo-project {
+          width: 100%;
+          margin: auto;
+          height: 100%;
+          object-fit: fill;
+        }
+      }
+    }
+  }
+  .container-for-margins #description-container-shadow::after {
+    // careful not to over-ride radio buttons
+    transform: translate(3rem, -24rem) rotate(-13deg);
+    width: 70%;
+    height: 19rem;
+    background: radial-gradient(
+      50% 20% at 100% 100%,
+      #28fa2f 100%,
+      #28fa2f 100%
+    );
+    filter: blur(110px);
+    z-index: -1;
+  }
+}
