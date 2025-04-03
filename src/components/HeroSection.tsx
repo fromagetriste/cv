@@ -75,7 +75,9 @@ const HeroSection = () => {
             <img
               id="profile-pic"
               className={displayClasses["rounded-pic"]}
-              src={`${import.meta.env.BASE_URL}/photos/hero/profile-picture-damien.png`}
+              src={`${
+                import.meta.env.BASE_URL
+              }/photos/hero/profile-picture-damien.png`}
               alt="profile picture"
             />
             <img
@@ -99,7 +101,16 @@ const HeroSection = () => {
             interfaces.{" "}
           </p>
           <div className="buttons-container">
-            <button id="view-cv" className={displayClasses["cd-button"]}>
+            <button
+              id="view-cv"
+              className={displayClasses["cd-button"]}
+              onClick={() =>
+                window.open(
+                  `${import.meta.env.BASE_URL}/CV/FRA-ENG-Damien-Gravelle.pdf`,
+                  "_blank"
+                )
+              }
+            >
               View my CV
             </button>
 

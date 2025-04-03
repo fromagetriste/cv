@@ -17,9 +17,9 @@ const projectsData: ProjectsDataType[] = [
     src: `${import.meta.env.BASE_URL}/icons/projects/movies.svg`,
     srcGreen: `${import.meta.env.BASE_URL}/icons/projects/movies-green.svg`,
     framework: "Movies",
-    title: "Movies App from API",
+    title: "Movies App in TypeScript",
     description:
-      "A React project consisting in fetching data from a movies API, sorting and filtering data, and rendering in Card components. Possibility to add Movies to Favorites with Local Storage",
+      "A React project consisting in fetching data from a movies API, filtering and sorting data, and rendering in Card components. Possibility to add Movies to Favorites with Local Storage",
     tech: ["TypeScript", "Local Storage", "React Router", "Axios"],
     website: "https://damien-movies.netlify.app/",
     github: "https://github.com/fromagetriste/movies-API",
@@ -62,7 +62,7 @@ const projectsData: ProjectsDataType[] = [
     framework: "Store",
     title: "E-Commerce in TypeScript",
     description:
-      "A e-commerce project built in TypeScript, using an API to fetch products' data",
+      "A e-commerce project built in TypeScript and Context API, using an API to fetch products' data",
     tech: ["TypeScript", "Tailwind", "Context API", "React"],
     website: "https://e-com-typescript.netlify.app/",
     github: "https://github.com/fromagetriste/E-Com-React-Typescript",
