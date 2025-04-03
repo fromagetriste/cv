@@ -13,7 +13,10 @@ const HeroSection = () => {
     "cd-button": "",
     "user-friendly": "",
     FR: "",
-    "a-b": "", // i need to end my state with a dummy data which i dont use, otherwise the function typingCharacters won't run properly on last object key. To solve the problem, i'd need to modify the function and get into over-complicated logic
+    "a-b": "",
+    sa: "s",
+
+    // i need to end my state with a dummy data which i dont use, otherwise the function typingCharacters won't run properly on last object key. To solve the problem, i'd need to modify the function and get into over-complicated logic
   });
 
   const [indexToSwicthToNextClass, setIndexToSwicthToNextClass] = useState(0);
@@ -48,7 +51,7 @@ const HeroSection = () => {
     return () => {
       clearInterval(myInterval); // cleaning function (useEffect property) :
     };
-  }, [indexForWords, animationStarted]); // once this effect changes, useEffect runs again. I first put indexToSwicthToNextClass as dependency array but for some reason i ignore, the output was not what i wanted
+  }, [indexForWords, animationStarted]); // once this effect changes, useEffect runs again.
 
   // Function to start animation when user interacts
   const startAnimation = () => {
@@ -124,21 +127,24 @@ const HeroSection = () => {
 
         <div className="terminal-container">
           <div className="terminal-header">
-            <img
-              className="bullet"
-              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
-              alt="bullet icon"
-            />
-            <img
-              className="bullet"
-              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
-              alt="bullet icon"
-            />
-            <img
-              className="bullet"
-              src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
-              alt="bullet icon"
-            />
+            <div>
+              <img
+                className="bullet"
+                src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
+                alt="bullet icon"
+              />
+              <img
+                className="bullet"
+                src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
+                alt="bullet icon"
+              />
+              <img
+                className="bullet"
+                src={`${import.meta.env.BASE_URL}/icons/bullet-terminal.svg`}
+                alt="bullet icon"
+              />
+            </div>
+            <div className={displayClasses["sa"]} />
           </div>
           <div className="terminal-content">
             <br />
