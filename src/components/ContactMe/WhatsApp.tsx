@@ -10,7 +10,17 @@ const WhatsApp = () => {
       </div>
 
       <div className="contact-buttons-container">
-        <button className="contact-button contact-cv">View my CV</button>
+        <button
+          className="contact-button contact-cv"
+          onClick={() =>
+            window.open(
+              `${import.meta.env.BASE_URL}/CV/FRA-ENG-Damien-Gravelle.pdf`,
+              "_blank"
+            )
+          }
+        >
+          View my CV
+        </button>
         <button
           className="contact-button contact-whatsapp"
           onClick={() => window.open("https://wa.me/33695739622", "_blank")}
