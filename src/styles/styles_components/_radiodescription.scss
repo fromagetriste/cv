@@ -36,15 +36,7 @@
   width: 100%;
   background-image: conic-gradient($blue, grey, $blue);
   // background-image: conic-gradient($blue, $blue, $blue, #a600ff, $blue, $blue);
-  background-image: conic-gradient(
-    #a600ff,
-    #a600ff,
-    #a600ff,
-    $blue,
-    $blue,
-    #a600ff,
-    #a600ff
-  );
+  background-image: conic-gradient($blue, $blue, $blue, #a600ff, $blue, $blue);
 
   top: 50%;
   left: 50%;

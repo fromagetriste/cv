@@ -46,7 +46,7 @@ const HeroSection = () => {
         setIndexForWords(0);
       }
     }
-    let myInterval = setInterval(typingCharacters, 100); // starts the interval function
+    let myInterval = setInterval(typingCharacters, 80); // starts the interval function
 
     return () => {
       clearInterval(myInterval); // cleaning function (useEffect property) :
@@ -80,7 +80,7 @@ const HeroSection = () => {
               className={displayClasses["rounded-pic"]}
               src={`${
                 import.meta.env.BASE_URL
-              }/photos/hero/profile-picture-damien.png`}
+              }/photos/hero/profile-picture-damien.jpg`}
               alt="profile picture"
             />
             <img

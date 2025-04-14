@@ -11,7 +11,7 @@ const Title = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }} // Ensures animation happens only once
       >
-        Meet your next reliable <br /> <span id="React-JS">React JS</span>{" "}
+        Meet your next reliable <br /> <span id="React-JS">React</span>{" "}
         developper
       </motion.h1>
       <motion.h3
@@ -21,7 +21,7 @@ const Title = () => {
         transition={{ duration: 0.8, delay: 0.2 }} // Slight delay for a staggered effect
         viewport={{ once: true }}
       >
-        I am a disciplined and self-taught coder (junior)
+        I am a disciplined and self-taught coder
       </motion.h3>
     </div>
   );

@@ -159,8 +159,10 @@ p {
   height: 2rem;
   display: block;
   transition: all 0.5s ease;
-  border-top: rgb(173, 234, 255) 1px solid;
-  background-color: $blue;
+  // border-top: rgb(173, 234, 255) 1px solid;
+  // background-color: $blue;
+  border-top: #5d54ad 1px solid;
+  background-color: #3d3777;
 }
 
 .center-txt {
@@ -188,8 +190,23 @@ p {
 }
 
 .blue-txt {
-  color: $blue;
+  color: #8173ff;
 }
+
+// #hero-shadow::before {
+//   content: "";
+//   position: absolute;
+//   transform: translate(-9rem, 2rem) rotate(20deg);
+//   width: 45rem;
+//   height: 4rem;
+//   background: radial-gradient(
+//     100% 20% at 50% 50%,
+//     rgb(0, 208, 255) 100%,
+//     rgb(0, 208, 255) 60%
+//   );
+//   filter: blur(80px);
+//   z-index: 1;
+// }
 
 #hero-shadow::before {
   content: "";
@@ -197,15 +214,10 @@ p {
   transform: translate(-9rem, 2rem) rotate(20deg);
   width: 45rem;
   height: 4rem;
-  background: radial-gradient(
-    100% 20% at 50% 50%,
-    rgb(0, 208, 255) 100%,
-    rgb(0, 208, 255) 60%
-  );
+  background: radial-gradient(100% 20% at 50% 50%, #8c82ff 100%, #8c82ff 60%);
   filter: blur(80px);
   z-index: 1;
 }
-
 .s {
   width: 1rem;
   height: 1rem;

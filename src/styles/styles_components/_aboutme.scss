@@ -3,7 +3,7 @@
   font-family: $font-2;
   font-size: 3.5rem;
   #about-gradient {
-    @include purple-gradient-properties;
+    @include blue-gradient-properties;
   }
 }
 .sub-title {
