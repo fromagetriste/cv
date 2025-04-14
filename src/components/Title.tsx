@@ -11,7 +11,7 @@ const Title = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }} // Ensures animation happens only once
       >
-        Meet your next reliable <br /> <span id="React-JS">React</span>{" "}
+        Meet your next reliable <br /> <span id="React-JS">React JS</span>{" "}
         developper
       </motion.h1>
       <motion.h3
