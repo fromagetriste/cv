@@ -88,16 +88,18 @@ const MyStack = () => {
           <div className="glass-card-react">
             <div className="logo-react-container">
               <img
-                src={`${import.meta.env.BASE_URL}/icons/stack/react-logo-pink.svg`}
+                src={`${
+                  import.meta.env.BASE_URL
+                }/icons/stack/react-logo-pink.svg`}
                 alt="logo react"
                 className="card-logo-react"
               />
             </div>
             <ul className="skills-react-container">
               <li className="skill-react">Hooks</li>
-              <li className="skill-react">State Management</li>
+              <li className="skill-react">Zustand</li>
               <li className="skill-react">API Fetching</li>
-              <li className="skill-react">Data Handling</li>
+              <li className="skill-react">Forms</li>
             </ul>
           </div>
         </div>
