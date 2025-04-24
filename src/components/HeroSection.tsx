@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 type DisplayClassesType = {
   [key: string]: string;
 };
-
+// 
 const HeroSection = () => {
   const [displayClasses, setDisplayClasses] = useState<DisplayClassesType>({
     aaa: "", // because useEffect sometimes skipped my first word so i place a dummy and useless word to start, it also creates a delay
