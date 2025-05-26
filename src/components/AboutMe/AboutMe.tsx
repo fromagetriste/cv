@@ -19,6 +19,7 @@ const AboutMe: React.FC = () => {
       {/* mapping and rendering cards about me : */}
       <div className="cards-container">
         {Object.keys(cardData).map((key) => (
+          // card component
           <Card key={key} cardData={cardData[key as keyof CardData]} />
         ))}
       </div>
