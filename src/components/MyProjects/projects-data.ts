@@ -60,13 +60,13 @@ const projectsData: ProjectsDataType[] = [
     src: `${import.meta.env.BASE_URL}/icons/projects/ecommerce.svg`,
     srcGreen: `${import.meta.env.BASE_URL}/icons/projects/ecommerce-green.svg`,
     framework: "Store",
-    title: "E-Commerce in TypeScript",
-    description:
-      "A e-commerce project built in TypeScript and Context API, using an API to fetch products' data",
-    tech: ["TypeScript", "Tailwind", "Context API", "React"],
-    website: "https://e-com-typescript.netlify.app/",
-    github: "https://github.com/fromagetriste/E-Com-React-Typescript",
-    screenshot: `${import.meta.env.BASE_URL}/photos/myprojects/ecom-app.png`,
+    title: "E-Commerce in Next JS",
+    description: "A e-commerce project built in Next JS and Stripe",
+    tech: ["Next JS", "TypeScript", "Zustand", "Stripe"],
+    website:
+      "https://ecommerce-tutorial-ehyzf6rso-fromagetristes-projects.vercel.app/",
+    github: "https://github.com/fromagetriste/ecommerce-tutorial",
+    screenshot: `${import.meta.env.BASE_URL}/photos/myprojects/ecom-nextJS.png`,
   },
 ];
 
