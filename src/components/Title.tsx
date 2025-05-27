@@ -6,7 +6,7 @@ const Title = () => {
       {" "}
       <motion.h1
         className="main-title"
-        initial={{ opacity: 0, y: -50 }}
+        initial={{ opacity: 0, y: -25 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }} // Ensures animation happens only once
@@ -16,7 +16,7 @@ const Title = () => {
       </motion.h1>
       <motion.h3
         className="second-title"
-        initial={{ opacity: 0, y: -50 }}
+        initial={{ opacity: 0, y: -25 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }} // Slight delay for a staggered effect
         viewport={{ once: true }}
