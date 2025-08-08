@@ -4,12 +4,20 @@ const WhatsApp = () => {
       <div className="photo-container">
         <img
           className="contact-photo"
-          src={`${import.meta.env.BASE_URL}/icons/contact/whatsapp.svg`}
+          src={`${
+            import.meta.env.BASE_URL
+          }/icons/contact/whatsapp-damien-fr.jpg`}
           alt="profile picture"
         />
       </div>
 
       <div className="contact-buttons-container">
+        <button
+          className="contact-button contact-whatsapp"
+          onClick={() => window.open("https://wa.me/33695739622", "_blank")}
+        >
+          WhatsApp
+        </button>
         <button
           className="contact-button contact-cv"
           onClick={() =>
@@ -20,12 +28,6 @@ const WhatsApp = () => {
           }
         >
           View my CV
-        </button>
-        <button
-          className="contact-button contact-whatsapp"
-          onClick={() => window.open("https://wa.me/33695739622", "_blank")}
-        >
-          WhatsApp
         </button>
       </div>
     </div>

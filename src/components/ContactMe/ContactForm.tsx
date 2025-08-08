@@ -12,6 +12,7 @@ export const ContactForm = () => {
     e.preventDefault();
 
     if (form.current) {
+      // console.log(form.current["from_name"].value);
       emailjs
         .sendForm("service_rg9ukxs", "template_0h5p1ve", form.current, {
           publicKey: "Ay6ykcX_tPB-IRLYE",

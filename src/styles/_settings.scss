@@ -6,6 +6,7 @@ $card-background: #1e293b;
 $color-for-borders: #2e3547;
 $grey-button: #323c49;
 $glassy: rgba(37, 34, 53, 0.445);
+$global-background: $black;
 
 // those colors are for code editor with Github theme
 $redish: #ff4141;
@@ -42,7 +43,7 @@ body {
   overflow-y: auto;
   height: 100%;
   font-family: $font-1;
-  background-color: $black;
+  background-color: $global-background;
 }
 
 ul {
