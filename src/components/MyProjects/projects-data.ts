@@ -44,16 +44,14 @@ const projectsData: ProjectsDataType[] = [
     id: 3,
     src: `${import.meta.env.BASE_URL}/icons/projects/globe.svg`,
     srcGreen: `${import.meta.env.BASE_URL}/icons/projects/globe-green.svg`,
-    framework: "Countries",
-    title: "Countries API",
+    framework: "Travel",
+    title: "Plan Your Trip with Next JS",
     description:
-      "A React project consisting of fetching data from a countries API, sorting and filtering data, and rendering it in Card components. It's my first project in React",
-    tech: ["React Router", "useEffect", "Axios", "SASS"],
-    website: "https://countries-damien.netlify.app/",
-    github: "https://github.com/fromagetriste/countries-API",
-    screenshot: `${
-      import.meta.env.BASE_URL
-    }/photos/myprojects/countries-app.png`,
+      "A travel Planner app to let you login in with Google, plan your trip, and save it in a database. You can also see your trips on a map, and add places to visit",
+    tech: ["Google Maps", "Authentication", "Prisma", "Neon", "Next JS"],
+    website: "https://travel-planner-fromagetriste.vercel.app/",
+    github: "https://github.com/fromagetriste/travel-planner",
+    screenshot: `${import.meta.env.BASE_URL}/photos/myprojects/travel.png`,
   },
   {
     id: 4,
