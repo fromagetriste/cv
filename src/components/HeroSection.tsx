@@ -9,15 +9,15 @@ const HeroSection = () => {
   const [displayClasses, setDisplayClasses] = useState<DisplayClassesType>({
     aaa: "", // because useEffect sometimes skipped my first word so i place a dummy and useless word to start, it also creates a delay
     "rounded-pic": "",
-    cccccccccccccccccccc: "",
+    ccccccccccccccc: "",
     "cd-button": "",
     FR: "",
-    ffffffffffffffffffff: "",
+    ffffffffffffff: "",
     background: "",
-    bbbbbbbbbbbbbbbbbbbbb: "",
-    dddddddddddddddddddd: "",
+    bbbbbbb: "",
+    ddddddd: "",
     "user-friendly": "",
-    eeeeeeeeeeeeeeeeeeee: "",
+    eeeeeeeeeee: "",
     "a-b": "",
     sa: "s",
 
